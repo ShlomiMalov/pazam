@@ -1,0 +1,40 @@
+{
+  "name": "pazam-games",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "lucide-react": "^0.x.x",
+    "matter-js": "^0.20.0",
+    "phaser": "^3.85.1",
+    "react": "^18.2.0",
+    "react-checkers": "^0.1.0",
+    "react-dom": "^18.2.0",
+    "react-game-engine": "^1.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
